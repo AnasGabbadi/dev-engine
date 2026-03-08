@@ -6,7 +6,7 @@ export default {
         const widgetService = universe.getService('widget');
 
         // Register in header menu
-        menuService.registerHeaderMenuItem('Developers', 'console.developers', { icon: 'code', priority: 2 });
+        // menuService.registerHeaderMenuItem('Developers', 'console.developers', { icon: 'code', priority: 2 });
 
         // Register widgets
         const widgets = [
